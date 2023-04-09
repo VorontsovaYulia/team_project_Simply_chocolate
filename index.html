@@ -18,7 +18,7 @@
   <title>Vanilla App Template</title>
   
   <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-962496df.js"></script>
-  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-75c6da20.css">
+  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-d2435ea3.css">
 </head>
 
 
@@ -501,11 +501,27 @@
     </h2>
     <ul class="topsellers-photo-list">
       <li class="topsellers-photo-list-item topsellers-photo-list-item-one">
-        <img
-          class="top-sellers-img"
-          src="/group-project-13-je-le-ferai/assets/top-sellers-1-mobile@1x-c8e2a94e.jpg"
-          alt="Cacao beans"
-        />
+        <picture>
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-1-desktop@1x-cef63a84.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-1-desktop@2x-5213250f.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-1-tablet@1x-cd13c393.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-1-tablet@2x-0ea51fe7.jpg 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-1-mobile@1x-c8e2a94e.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-1-mobile@2x-a47b5990.jpg 2x"
+            media="(min-width: 375px)"
+          />
+
+          <img
+            class="top-sellers-img"
+            src="/group-project-13-je-le-ferai/assets/top-sellers-1-mobile@1x-c8e2a94e.jpg"
+            alt="Cacao beans"
+          />
+        </picture>
         <p class="top-sellers-descr">
           Crazy enough chocolate originates from a bean just like the coffee
           bean called Cacao. Cacao has been around for thousands of years and
@@ -513,18 +529,40 @@
         </p>
       </li>
       <li class="topsellers-photo-list-item">
-        <img
-          class="top-sellers-img"
-          src="/group-project-13-je-le-ferai/assets/top-sellers-2-mobile@1x-c718b459.jpg"
-          alt="Chocolate with caramel"
-        />
+        <picture>
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-2-desktop@1x-c350fd4f.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-2-desktop@2x-a3794726.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-2-tablet@1x-864ce2d5.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-2-tablet@2x-2d9fb49e.jpg 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-2-mobile@1x-c718b459.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-2-mobile@2x-a7278f97.jpg 2x"
+            media="(min-width: 375px)"
+          />
+
+          <img
+            class="top-sellers-img"
+            src="/group-project-13-je-le-ferai/assets/top-sellers-2-mobile@1x-c718b459.jpg"
+            alt="Chocolate with caramel"
+          />
+        </picture>
       </li>
-      <li class="topsellers-photo-list-item is-hidden">
-        <img
-          class="top-sellers-img"
-          src="/group-project-13-je-le-ferai/assets/top-sellers-3-desktop@1x-51e9221b.jpg"
-          alt="Black chocolate"
-        />
+      <li class="topsellers-photo-list-item is-hidden-sellers">
+        <picture>
+          <source
+            srcset="/group-project-13-je-le-ferai/assets/top-sellers-3-desktop@1x-51e9221b.jpg 1x, /group-project-13-je-le-ferai/assets/top-sellers-3-desktop@2x-14c2223a.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="top-sellers-img"
+            src="/group-project-13-je-le-ferai/assets/top-sellers-3-desktop@1x-51e9221b.jpg"
+            alt="Black chocolate"
+          />
+        </picture>
       </li>
     </ul>
 
