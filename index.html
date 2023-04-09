@@ -18,7 +18,7 @@
   <title>Vanilla App Template</title>
   
   <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-962496df.js"></script>
-  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-595c9858.css">
+  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-54649df7.css">
 </head>
 
 
@@ -110,50 +110,54 @@
 </section>
     <!----------------Section Advantages------------------->
 
-<section class="advan">
-  <div class="container advan_container">
-    <h2 hidden>Our advantages</h2>
-    <ul class="advan_list">
-      <li class="advan_item">
-        <div class="advan_icon">
-          <svg class="advan_icon_item" width="32" height="32">
-            <use href="./images/sprite-all/symbol-defs.svg#chocolate-bar"></use>
-          </svg>
-        </div>
-        <h3 class="advan-header">Unsurpassed taste</h3>
-        <p class="advan-text">Crafted with the finest quality cocoa beans and a dedication to
-          perfection, each bite is a
-          decadent experience that simply cannot be matched. Savor the richness and complexity of
-          our
-          Unsurpassed Taste and discover a new level of chocolate bliss.</p>
-        <div class="vertical_line"></div>
+<section class="advantages">
+  <h1 class="hiddenvisualy">benefits</h1>
+  <div class="container-advantages">
+    <ul class="advantages__list list">
+
+      <li class="advantages__item">
+        <!-- <svg class="advantages__icon" width="32" height="32">
+          <use href="./img/icons/symbol-defs.svg#icon-chocobar"></use>
+        </svg> -->
+        <img class="advantages__icon" src="../img/icons/chocobar.svg">
+        <h2 class="advantages__label">Unsurpassed taste</h2>
+        <p class="advantages__text">
+          Crafted with the finest quality cocoa beans and a dedication to
+          perfection, each bite is a decadent experience that simply cannot be
+          matched. Savor the richness and complexity of our Unsurpassed Taste
+          and discover a new level of chocolate bliss.
+        </p>
       </li>
-      <li class="advan_item">
-        <div class="advan_icon">
-          <svg class="advan_icon_item" width="32" height="32">
-            <use href="./images/sprite-all/symbol-defs.svg#coin"></use>
-          </svg>
-        </div>
-        <h3 class="advan-header">Affordable price</h3>
-        <p class="advan-text">Indulge in high-quality chocolate without breaking the bank with Simply
-          Chocolate's selection of
-          affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without
-          sacrificing
-          taste or quality. Browse our selection and indulge in affordable luxury today.</p>
-        <div class="vertical_line"></div>
+      
+      <li class="advantages__item">
+        <!-- <svg class="advantages__icon" width="32" height="32">
+           <use src="./img/icons/symbol-defs.svg#icon-coin" alt=""> </use>
+        </svg> -->
+        <img class="advantages__icon" src="../img/icons/coin.svg" alt="">
+        <h2 class="advantages__label">Affordable price</h2>
+
+        <p class="advantages__text">
+          Indulge in high-quality chocolate without breaking the bank with
+          Simply Chocolate's selection of affordable treats. Enjoy
+          mouth-watering truffles and velvety chocolate bars without sacrificing
+          taste or quality. Browse our selection and indulge in affordable
+          luxury today.
+        </p>
       </li>
-      <li class="advan_item">
-        <div class="advan_icon">
-          <svg class="advan_icon_item" width="32" height="32">
-            <use href="./images/sprite-all/symbol-defs.svg#spoon"></use>
-          </svg>
-        </div>
-        <h3 class="advan-header">Own production</h3>
-        <p class="advan-text">We take pride in our own production process, ensuring that every step is
-          carefully crafted to
-          perfection. From selecting the finest ingredients to handcrafting each piece, our attention
-          to
-          detail is evident in every bite.</p>
+
+      <li class="advantages__item">
+        <!-- <svg class="advantages__icon" width="32" height="32">
+          <use href="./img/icons/symbol-defs.svg#icon-spoon"></use>
+        </svg> -->
+        <img class="advantages__icon" src="../img/icons/spoon.svg"> 
+        <h2 class="advantages__label">Own production</h2>
+
+        <p class="advantages__text">
+          We take pride in our own production process, ensuring that every step
+          is carefully crafted to perfection. From selecting the finest
+          ingredients to handcrafting each piece, our attention to detail is
+          evident in every bite.
+        </p>
       </li>
     </ul>
   </div>
@@ -633,6 +637,88 @@
 
   
   
+<div class="backdrop is-hidden" data-modal>
+
+
+<div class="menu-order" data-modal>
+    <div class="container-menu">
+      <button data-modal-close type="button" class="menu-order__close">
+        <svg class="mobile-close-icon" width="12" height="12">
+          <use href="./images/icons22222/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h2 class="menu-order__label">
+        <span class="menu-order__label-buy">BUY</span> NOW </h2>
+  
+  
+  
+  
+      <ul class="menu-order__list">
+        <li class="menu-order__item">
+          <div class="menu-order__card">
+            <img srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABFCAMAAADjPzHNAAADAFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAwILCAcPCwkRDQs4Kyg3LCg6LCc+LCdELihHMClHMClMODFOOTJQOjNRPDVTPjZVQDlUQjtYQztaRDxbRT1hRjxkST5uVElvVUpvV01sV05xWlF1XVN4Ylh/YlV2ZV12Z2GGaVt3amSNa1t6bGaDcmt+cm2IdGuUdGONdWmTdWWSd2mhh3umjH+qj4GvlYm0m46snJOsnJOunJOvnZOzoJa2oZWzoZe4o5a3pZu8qqC/rqXBs6vCt7DXvbHGvrnHwr/cxrvNysfgzMHT0M7X1NLb2dfi3Nfj3dng3t3k39zt39bl4d7k4+Lo5eLp5+Xm5uXs6+ru7evt7e3w7+/x8fDx8fHw8PDy8vLy8vL09PP19fX09PP3+Pj49/f4+Pf6+vv6+fr8+ff6+vr6+fn7+/v8+/v//v7//v7//v7//v7+/fv9/f3+/f7+/v7+/v7+/v7///////////////////////////////////////////////////////////////////////////////////////////7///////7///////////+fhXmegnafgHKhfnCifGydeWmWdGWQcWOKbmKNbF+Kal2JZ1mFZFaCYVN8YVZ9YFRsU0lrUUZoTkNlTEFkS0BJNjBJNS5ENTBDNC8/My8+MS0+MSxGMClHMClHMCo+LypFLyhALihBLSZDLSZELSU1LCg2LCg0KiczKiYzKSUyKCUwJyQvJiMuJSIrJCE2JB0qIyA2IxwpIh85IhsuIh0xIh0pIR4pIR0sIR04IRo2Hxg1Hxg0HhcyHhcyHRYxHBYxHBUlHBkkHBkjHBkwGxQhGxkhGxgvGhMgGhgvGRMuGRItGRItGRInGRQmGRUfGRcsGBIeGBUnGBMmGBMpFxIpFxEmFxEdFxQmFxImFhAcFhMlFRAbFRMlFQ8lFRAkFA8kFA8aFBIaFBEZExEYEhAXEQ8WEA8VEA4TDg0SDQwxUGIrAAAAlnRSTlMAAAAAAAAACy94zfH97v7l2NLs/Pz49vn4/f7+/f39/v79++3cwv6j+vSO8HPozuK3cZ97iv7+/v791ce6seXxp/ifn6GjqRersBKwE7C3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 1x, /group-project-13-je-le-ferai/assets/buy-now-1-desktop-tablet@2x-3add43e7.png 2x" 
+            src="../img/buy-now-1-mobile@1x.png" alt="chocolate" width="" class="img-mo"/>
+            <button class="menu-order__value" type="button">100 g</button>
+          </div>
+        </li>
+        <li class="menu-order__item">
+          <div class="menu-order__card">
+            <img srcset="data:image/png;base64,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 1x, /group-project-13-je-le-ferai/assets/buy-now-2-desktop-tablet@2x-641d6b94.png 2x"
+            src="../img/buy-now-2-mobile@1x.png" alt="chocolatewhiteblack" width="" class="img-mo" />
+            <button class="menu-order__value" type="button">100 g</button>
+          </div>
+        </li>
+        <li class="menu-order__item">
+          <div class="menu-order__card">
+            <img srcset="data:image/png;base64,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 1x, /group-project-13-je-le-ferai/assets/buy-now-3-desktop-tablet@2x-f4760c75.png 2x" 
+            src="../img/buy-now-3-mobile@1x.png" alt="chocolateplate" width="" class="img-mo"/>
+            <button class="menu-order__value" type="button">100 g</button>
+          </div>
+        </li>
+      </ul>
+      
+  
+      <form class="menu-order__form">
+           <div class="menu-order__information">
+              <label for="name" class="form-label">Personal information</label>
+  
+                <div class="input"> 
+                <input type="text" name="name" id="name" class="form-input" placeholder="Name">
+              <!-- <label for="surname" class="form-label"></label>    -->
+                <input type="text" name="surname" id="surname" class="form-input" placeholder="Surname"></div> </div>
+  
+          <div class="menu-order__email">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email">
+            </div>      
+  
+          <div class="menu-order__phone">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" name="phone" id="phone" class="form-input" placeholder="Phone number"> 
+          </div>  
+           
+        <div class="menu-order__credit">
+          <label for="credit" class="form-label">Card number</label>
+         <input id="credit" name="credit" id="credit" class="form-input" placeholder="Enter card">
+  
+         <!-- <svg class="menu-order__form-icon" width="22" height="13">
+          <use href="./images/icons/symbol-defs#icon-mastercard"> </use>
+         </svg> -->
+         
+        </div>
+   
+        <div class="menu-order__comment">
+                  <label for="message" class="label-comment">Comment</label>
+                  <textarea name="user-comment" id="message" class="form-comment" placeholder="Enter text"></textarea>
+                </div>
+  
+      <button type="submit" class="menu-order__submit">Submit</button>
+      </form>
+  
+       
+  
+    </div>
+  </div>
   
   
  
