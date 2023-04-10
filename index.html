@@ -18,7 +18,7 @@
   <title>Vanilla App Template</title>
   
   <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-89e9ad81.js"></script>
-  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-738bc3ac.css">
+  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-8b96ec76.css">
 </head>
 
 
@@ -91,22 +91,24 @@
   <main>
 
     <section class="hero">
-  <div class="container">
-    <h2 class="hero_header">Treat yourself or a loved one to our finest ingredients for a moment of pure
-      delight!</h2>
-    <div class="hero_buttons">
-      <button class="buy_now js-open-menu" type="button" id="open_button" data-modal-buy-open>Buy now</button>
-      <button class="how_made" type="button" id="how_made_button" how_made>How it's made</button>
-      <div class="scroll">
-        <button class="scroll_button" type="button">scroll down</button>
-        <span class="scroll_span">
-          <svg class="scroll_icon" width="22" height="22">
-            <use href="/group-project-13-je-le-ferai/assets/sprite-13da9554.svg#galochka-2"></use>
-          </svg>
-        </span>
-      </div>
-    </div>
-  </div>
+	<div class="hero_container">
+		<h2 class="hero_header">Treat yourself or a loved one to our finest ingredients for a moment of pure
+			delight!</h2>
+		<div class="hero_buttons">
+			<div class="hero_top">
+				<button class="hero_button buy_now js-open-menu" type="button" id="open_button" buy_now_modal>Buy now</button>
+				<button class="hero_button how_made" type="button"><a href="#howit'smade">How it's made?</a></button>
+			</div>
+			<div class="scroll">
+				<button class="scroll_button" type="button"><a href="#footer">scroll down</a></button>
+				<span class="scroll_span">
+					<svg class="scroll_icon" width="22" height="22">
+						<use href="/group-project-13-je-le-ferai/assets/sprite-13da9554.svg#galochka-2"></use>
+					</svg>
+				</span>
+			</div>
+		</div>
+	</div>
 </section>
     <!----------------Section Advantages------------------->
 
@@ -119,7 +121,7 @@
         <!-- <svg class="advantages__icon" width="32" height="32">
           <use href="./img/icons/symbol-defs.svg#icon-chocobar"></use>
         </svg> -->
-        <img class="advantages__icon" src="/group-project-13-je-le-ferai/assets/chocobar-835df2c1.svg">
+        <img class="advantages__icon" src="/img/icons/chocobar.svg">
         <h2 class="advantages__label">Unsurpassed taste</h2>
         <p class="advantages__text">
           Crafted with the finest quality cocoa beans and a dedication to
@@ -133,7 +135,7 @@
         <!-- <svg class="advantages__icon" width="32" height="32">
            <use src="./img/icons/symbol-defs.svg#icon-coin" alt=""> </use>
         </svg> -->
-        <img class="advantages__icon" src="/group-project-13-je-le-ferai/assets/coin-605e8bba.svg" alt="">
+        <img class="advantages__icon" src="/img/icons/coin.svg" alt="">
         <h2 class="advantages__label">Affordable price</h2>
 
         <p class="advantages__text">
@@ -149,7 +151,7 @@
         <!-- <svg class="advantages__icon" width="32" height="32">
           <use href="./img/icons/symbol-defs.svg#icon-spoon"></use>
         </svg> -->
-        <img class="advantages__icon" src="/group-project-13-je-le-ferai/assets/spoon-4197cfb7.svg"> 
+        <img class="advantages__icon" src="/img/icons/spoon.svg"> 
         <h2 class="advantages__label">Own production</h2>
 
         <p class="advantages__text">
