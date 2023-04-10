@@ -18,7 +18,7 @@
   <title>Vanilla App Template</title>
   
   <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-89e9ad81.js"></script>
-  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-72263658.css">
+  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-45f53580.css">
 </head>
 
 
@@ -838,7 +838,7 @@
     <div class="container-menu menu-order">
       <button type="button" class="menu-order__close" data-modal-buy-close>
         <svg class="mobile-close-icon" width="12" height="12">
-          <use href="/group-project-13-je-le-ferai/assets/sprite-13da9554.svg#krestik"></use>
+          <use href="/img/icons/symbol-defs.svg#icon-x"></use>
         </svg>
       </button>
       <h2 class="menu-order__label">
@@ -877,23 +877,23 @@
               <label for="name" class="form-label">Personal information</label>
   
                 <div class="input"> 
-                <input type="text" name="name" id="name" class="form-input-buy" placeholder="Name">
+                <input type="text" name="name" id="name" class="form-input-buy" placeholder="Name" required>
               <!-- <label for="surname" class="form-label"></label>    -->
-                <input type="text" name="surname" id="surname" class="form-input-buy" placeholder="Surname"></div> </div>
+                <input type="text" name="surname" id="surname" class="form-input-buy" placeholder="Surname" required></div> </div>
   
           <div class="menu-order__email">
             <label for="email" class="form-label">Email</label>
-            <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email">
+            <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email" required>
             </div>      
   
           <div class="menu-order__phone">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" name="phone" id="phone" class="form-input" placeholder="Phone number"> 
+            <input type="tel" name="phone" id="phone" class="form-input pn" placeholder="Phone number" required> 
           </div>  
            
         <div class="menu-order__credit">
           <label for="credit" class="form-label">Card number</label>
-         <input id="credit" name="credit" id="credit" class="form-input" placeholder="Enter card">
+         <input id="credit" name="credit" id="credit" class="form-input" placeholder="Enter card" maxLength="16" required>
   
          <!-- <svg class="menu-order__form-icon" width="22" height="13">
           <use href="./images/icons/symbol-defs#icon-mastercard"> </use>
@@ -906,7 +906,7 @@
                   <textarea name="user-comment" id="message" class="form-comment" placeholder="Enter text"></textarea>
                 </div>
   
-      <button type="submit" class="menu-order__submit">Submit</button>
+      <button type="submit" class="menu-order__submit">Submit <span></span><span></span><span></span><span></span> </button>
       </form>
   
        
