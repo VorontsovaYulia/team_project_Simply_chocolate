@@ -17,8 +17,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <title>Vanilla App Template</title>
   
-  <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-cdd86eed.js"></script>
-  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-54c66d04.css">
+  <script type="module" crossorigin src="/group-project-13-je-le-ferai/assets/index-a36c75a2.js"></script>
+  <link rel="stylesheet" href="/group-project-13-je-le-ferai/assets/index-99bb3b0e.css">
 </head>
 
 
@@ -712,7 +712,7 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button type="button" class="subscribe-btn" data-modal-open>
+    <button type="button" class="subscribe-btn" data-modal-subscribe-open>
       Subscribe
     </button>
   </div>
@@ -1005,7 +1005,38 @@
 
 
   
-  
+  <div class="subscribe-backdrop is-hidden" data-modal-subscribe>
+  <div class="subscribe-modal">
+    <button
+      type="button"
+      class="subscribe-modal-btn"
+      data-modal-subscribe-close
+    >
+      <svg class="subscribe-modal-btn-icon">
+        <use href="/group-project-13-je-le-ferai/assets/sprite-c2dd0a1e.svg#krestik-2"></use>
+      </svg>
+    </button>
+
+    <div class="subscribe-modal-content">
+      <h2 class="subscribe-modal-title">
+        Explore our <br />
+        <span>new chocolate</span> first
+      </h2>
+      <form class="subscribe-modal-form">
+        <input
+          type="email"
+          name="email"
+          id="subscribe-modal-email"
+          placeholder="Enter your E-mail"
+          class="subscribe-modal-form-input"
+          required
+        />
+        <button type="submit" class="subscribe-modal-form-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
   
   
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
