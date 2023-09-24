@@ -1,11 +1,11 @@
 {
-  "name": "group-project-13-je-le-ferai",
+  "name": "team_project_Simply_chocolate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/group-project-13-je-le-ferai/",
+    "build": "vite build --base=/team_project_Simply_chocolate/",
     "preview": "vite preview"
   },
   "devDependencies": {
